@@ -1,0 +1,10 @@
+^D:\SHANGHAITECH\COMPUTER_SCIENCE\CS100\HW\HW8\BUILD\CMAKEFILES\E1DC0E1804208433D1DB4FE5E59D1F3F\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_resources -BD:/Shanghaitech/Computer_Science/CS100/hw/hw8/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Shanghaitech/Computer_Science/CS100/hw/hw8/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

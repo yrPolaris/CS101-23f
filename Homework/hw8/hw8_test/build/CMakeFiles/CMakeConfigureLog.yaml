@@ -1,0 +1,817 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/6/10 12:13:54。
+      
+      节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.90
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/6/10 12:13:56。
+      
+      节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.90
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-a80mxt"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-a80mxt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-a80mxt
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e5d1b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:13:57。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a80mxt\\cmTC_e5d1b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e5d1b.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a80mxt\\Debug\\”。
+          正在创建目录“cmTC_e5d1b.dir\\Debug\\cmTC_e5d1b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e5d1b.dir\\Debug\\cmTC_e5d1b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5d1b.dir\\Debug\\\\" /Fd"cmTC_e5d1b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          CMakeCCompilerABI.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5d1b.dir\\Debug\\\\" /Fd"cmTC_e5d1b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a80mxt\\Debug\\cmTC_e5d1b.exe" /INCREMENTAL /ILK:"cmTC_e5d1b.dir\\Debug\\cmTC_e5d1b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-a80mxt/Debug/cmTC_e5d1b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-a80mxt/Debug/cmTC_e5d1b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e5d1b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e5d1b.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a80mxt\\Debug\\cmTC_e5d1b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e5d1b.dir\\Debug\\cmTC_e5d1b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e5d1b.dir\\Debug\\cmTC_e5d1b.tlog\\cmTC_e5d1b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a80mxt\\cmTC_e5d1b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-kejo3n"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-kejo3n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-kejo3n
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80249.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:13:58。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kejo3n\\cmTC_80249.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_80249.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kejo3n\\Debug\\”。
+          正在创建目录“cmTC_80249.dir\\Debug\\cmTC_80249.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_80249.dir\\Debug\\cmTC_80249.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_80249.dir\\Debug\\\\" /Fd"cmTC_80249.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "D:\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_80249.dir\\Debug\\\\" /Fd"cmTC_80249.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "D:\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kejo3n\\Debug\\cmTC_80249.exe" /INCREMENTAL /ILK:"cmTC_80249.dir\\Debug\\cmTC_80249.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-kejo3n/Debug/cmTC_80249.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-kejo3n/Debug/cmTC_80249.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_80249.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_80249.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kejo3n\\Debug\\cmTC_80249.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_80249.dir\\Debug\\cmTC_80249.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_80249.dir\\Debug\\cmTC_80249.tlog\\cmTC_80249.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kejo3n\\cmTC_80249.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:362 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-xr8e6c"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-xr8e6c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-xr8e6c
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_10a3a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:13:59。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\cmTC_10a3a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_10a3a.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\Debug\\”。
+          正在创建目录“cmTC_10a3a.dir\\Debug\\cmTC_10a3a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_10a3a.dir\\Debug\\cmTC_10a3a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10a3a.dir\\Debug\\\\" /Fd"cmTC_10a3a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\HAVE_SYS_TYPES_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_SYS_TYPES_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10a3a.dir\\Debug\\\\" /Fd"cmTC_10a3a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\HAVE_SYS_TYPES_H.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\Debug\\cmTC_10a3a.exe" /INCREMENTAL /ILK:"cmTC_10a3a.dir\\Debug\\cmTC_10a3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-xr8e6c/Debug/cmTC_10a3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-xr8e6c/Debug/cmTC_10a3a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_10a3a.dir\\Debug\\HAVE_SYS_TYPES_H.obj
+          cmTC_10a3a.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\Debug\\cmTC_10a3a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_10a3a.dir\\Debug\\cmTC_10a3a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_10a3a.dir\\Debug\\cmTC_10a3a.tlog\\cmTC_10a3a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xr8e6c\\cmTC_10a3a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:363 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-4yoa94"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-4yoa94"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-4yoa94
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6c581.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:01。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\cmTC_6c581.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_6c581.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\Debug\\”。
+          正在创建目录“cmTC_6c581.dir\\Debug\\cmTC_6c581.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_6c581.dir\\Debug\\cmTC_6c581.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c581.dir\\Debug\\\\" /Fd"cmTC_6c581.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\HAVE_UNISTD_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_UNISTD_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c581.dir\\Debug\\\\" /Fd"cmTC_6c581.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\HAVE_UNISTD_H.c"
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\cmTC_6c581.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\cmTC_6c581.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\cmTC_6c581.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4yoa94\\cmTC_6c581.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:364 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-annxtk"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-annxtk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-annxtk
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b4a5e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:01。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\cmTC_b4a5e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b4a5e.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\Debug\\”。
+          正在创建目录“cmTC_b4a5e.dir\\Debug\\cmTC_b4a5e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b4a5e.dir\\Debug\\cmTC_b4a5e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4a5e.dir\\Debug\\\\" /Fd"cmTC_b4a5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\HAVE_SYS_TIME_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_SYS_TIME_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4a5e.dir\\Debug\\\\" /Fd"cmTC_b4a5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\HAVE_SYS_TIME_H.c"
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\cmTC_b4a5e.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\cmTC_b4a5e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\cmTC_b4a5e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-annxtk\\cmTC_b4a5e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:365 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-thbmyz"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-thbmyz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-thbmyz
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d81a7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:02。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\cmTC_d81a7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d81a7.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\Debug\\”。
+          正在创建目录“cmTC_d81a7.dir\\Debug\\cmTC_d81a7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d81a7.dir\\Debug\\cmTC_d81a7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d81a7.dir\\Debug\\\\" /Fd"cmTC_d81a7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\HAVE_STDBOOL_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_STDBOOL_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d81a7.dir\\Debug\\\\" /Fd"cmTC_d81a7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\HAVE_STDBOOL_H.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\Debug\\cmTC_d81a7.exe" /INCREMENTAL /ILK:"cmTC_d81a7.dir\\Debug\\cmTC_d81a7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-thbmyz/Debug/cmTC_d81a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-thbmyz/Debug/cmTC_d81a7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d81a7.dir\\Debug\\HAVE_STDBOOL_H.obj
+          cmTC_d81a7.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\Debug\\cmTC_d81a7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d81a7.dir\\Debug\\cmTC_d81a7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d81a7.dir\\Debug\\cmTC_d81a7.tlog\\cmTC_d81a7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thbmyz\\cmTC_d81a7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:366 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-npznrv"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-npznrv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-npznrv
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3474.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:03。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\cmTC_f3474.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f3474.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\Debug\\”。
+          正在创建目录“cmTC_f3474.dir\\Debug\\cmTC_f3474.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f3474.dir\\Debug\\cmTC_f3474.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3474.dir\\Debug\\\\" /Fd"cmTC_f3474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\HAVE_SYS_PARAM_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_SYS_PARAM_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3474.dir\\Debug\\\\" /Fd"cmTC_f3474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\HAVE_SYS_PARAM_H.c"
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\cmTC_f3474.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\cmTC_f3474.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\cmTC_f3474.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-npznrv\\cmTC_f3474.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:367 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-37orpq"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-37orpq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-37orpq
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b7c6c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:04。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\cmTC_b7c6c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b7c6c.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\Debug\\”。
+          正在创建目录“cmTC_b7c6c.dir\\Debug\\cmTC_b7c6c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b7c6c.dir\\Debug\\cmTC_b7c6c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7c6c.dir\\Debug\\\\" /Fd"cmTC_b7c6c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\HAVE_SYS_IOCTL_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_SYS_IOCTL_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7c6c.dir\\Debug\\\\" /Fd"cmTC_b7c6c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\HAVE_SYS_IOCTL_H.c"
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\cmTC_b7c6c.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\cmTC_b7c6c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\cmTC_b7c6c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37orpq\\cmTC_b7c6c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:368 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-c5rdge"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-c5rdge"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-c5rdge
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61419.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:04。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\cmTC_61419.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_61419.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\Debug\\”。
+          正在创建目录“cmTC_61419.dir\\Debug\\cmTC_61419.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_61419.dir\\Debug\\cmTC_61419.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61419.dir\\Debug\\\\" /Fd"cmTC_61419.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\HAVE_FCNTL_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_FCNTL_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61419.dir\\Debug\\\\" /Fd"cmTC_61419.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\HAVE_FCNTL_H.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\Debug\\cmTC_61419.exe" /INCREMENTAL /ILK:"cmTC_61419.dir\\Debug\\cmTC_61419.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-c5rdge/Debug/cmTC_61419.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-c5rdge/Debug/cmTC_61419.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_61419.dir\\Debug\\HAVE_FCNTL_H.obj
+          cmTC_61419.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\Debug\\cmTC_61419.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_61419.dir\\Debug\\cmTC_61419.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_61419.dir\\Debug\\cmTC_61419.tlog\\cmTC_61419.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c5rdge\\cmTC_61419.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:369 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-v8xxt4"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-v8xxt4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-v8xxt4
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_661f0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:05。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\cmTC_661f0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_661f0.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\Debug\\”。
+          正在创建目录“cmTC_661f0.dir\\Debug\\cmTC_661f0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_661f0.dir\\Debug\\cmTC_661f0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_661f0.dir\\Debug\\\\" /Fd"cmTC_661f0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\HAVE_USBHID_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_USBHID_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_661f0.dir\\Debug\\\\" /Fd"cmTC_661f0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\HAVE_USBHID_H.c"
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\cmTC_661f0.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\cmTC_661f0.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\cmTC_661f0.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8xxt4\\cmTC_661f0.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:370 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-e8ugjh"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-e8ugjh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-e8ugjh
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bdb9e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:06。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_bdb9e.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\Debug\\”。
+          正在创建目录“cmTC_bdb9e.dir\\Debug\\cmTC_bdb9e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_bdb9e.dir\\Debug\\cmTC_bdb9e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdb9e.dir\\Debug\\\\" /Fd"cmTC_bdb9e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\CheckFunctionExists.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdb9e.dir\\Debug\\\\" /Fd"cmTC_bdb9e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\CheckFunctionExists.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\Debug\\cmTC_bdb9e.exe" /INCREMENTAL /ILK:"cmTC_bdb9e.dir\\Debug\\cmTC_bdb9e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-e8ugjh/Debug/cmTC_bdb9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-e8ugjh/Debug/cmTC_bdb9e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bdb9e.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gettimeofday，函数 _main 中引用了该符号 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj]
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\Debug\\cmTC_bdb9e.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gettimeofday，函数 _main 中引用了该符号 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj]
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\Debug\\cmTC_bdb9e.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8ugjh\\cmTC_bdb9e.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.79
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:371 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-zi5dae"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-zi5dae"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-zi5dae
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d48f8.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:07。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d48f8.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\Debug\\”。
+          正在创建目录“cmTC_d48f8.dir\\Debug\\cmTC_d48f8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d48f8.dir\\Debug\\cmTC_d48f8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d48f8.dir\\Debug\\\\" /Fd"cmTC_d48f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\CheckFunctionExists.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d48f8.dir\\Debug\\\\" /Fd"cmTC_d48f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\CheckFunctionExists.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\Debug\\cmTC_d48f8.exe" /INCREMENTAL /ILK:"cmTC_d48f8.dir\\Debug\\cmTC_d48f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-zi5dae/Debug/cmTC_d48f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-zi5dae/Debug/cmTC_d48f8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d48f8.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _XParseGeometry，函数 _main 中引用了该符号 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj]
+        D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\Debug\\cmTC_d48f8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj]
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _XParseGeometry，函数 _main 中引用了该符号 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj]
+          D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\Debug\\cmTC_d48f8.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zi5dae\\cmTC_d48f8.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.77
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-j6jiyx"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-j6jiyx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-j6jiyx
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_37492.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:08。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\cmTC_37492.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_37492.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\Debug\\”。
+          正在创建目录“cmTC_37492.dir\\Debug\\cmTC_37492.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_37492.dir\\Debug\\cmTC_37492.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37492.dir\\Debug\\\\" /Fd"cmTC_37492.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\HAVE_STDINT_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_STDINT_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37492.dir\\Debug\\\\" /Fd"cmTC_37492.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\HAVE_STDINT_H.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\Debug\\cmTC_37492.exe" /INCREMENTAL /ILK:"cmTC_37492.dir\\Debug\\cmTC_37492.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-j6jiyx/Debug/cmTC_37492.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-j6jiyx/Debug/cmTC_37492.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_37492.dir\\Debug\\HAVE_STDINT_H.obj
+          cmTC_37492.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\Debug\\cmTC_37492.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_37492.dir\\Debug\\cmTC_37492.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_37492.dir\\Debug\\cmTC_37492.tlog\\cmTC_37492.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j6jiyx\\cmTC_37492.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-2hau9a"
+      binary: "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-2hau9a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-2hau9a
+        
+        Run Build Command(s):D:/Microsoft Visual Studio/Microsoft Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5221e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/10 12:14:09。
+        
+        节点 1 上的项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\cmTC_5221e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5221e.dir\\Debug\\”。
+          正在创建目录“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\Debug\\”。
+          正在创建目录“cmTC_5221e.dir\\Debug\\cmTC_5221e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5221e.dir\\Debug\\cmTC_5221e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5221e.dir\\Debug\\\\" /Fd"cmTC_5221e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\HAVE_INTTYPES_H.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32532 版
+          HAVE_INTTYPES_H.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5221e.dir\\Debug\\\\" /Fd"cmTC_5221e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\HAVE_INTTYPES_H.c"
+        Link:
+          D:\\Microsoft Visual Studio\\Microsoft Visual Studio 2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\Debug\\cmTC_5221e.exe" /INCREMENTAL /ILK:"cmTC_5221e.dir\\Debug\\cmTC_5221e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-2hau9a/Debug/cmTC_5221e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/build/CMakeFiles/CMakeScratch/TryCompile-2hau9a/Debug/cmTC_5221e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5221e.dir\\Debug\\HAVE_INTTYPES_H.obj
+          cmTC_5221e.vcxproj -> D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\Debug\\cmTC_5221e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5221e.dir\\Debug\\cmTC_5221e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5221e.dir\\Debug\\cmTC_5221e.tlog\\cmTC_5221e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Shanghaitech\\Computer_Science\\CS100\\hw\\hw8\\hw8_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hau9a\\cmTC_5221e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.83
+        
+      exitCode: 0
+...

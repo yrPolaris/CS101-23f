@@ -1,0 +1,173 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Debug/Sun.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"src/Sun/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/GameWorld"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Sun"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Framework"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/third_party/freeglut/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/third_party/SOIL/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Background"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Seed"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Planting_Spot"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Shanghaitech/Computer_Science/CS100/hw/hw8/hw8_test/src/Plant"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "Planting_Spot::@32f1cfb2559503d79b28"
+		}
+	],
+	"id" : "Sun::@e2f021b237a80f06c2f8",
+	"name" : "Sun",
+	"nameOnDisk" : "Sun.lib",
+	"paths" : 
+	{
+		"build" : "src/Sun",
+		"source" : "src/Sun"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "src/Sun/Sun.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Sun/Sun.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

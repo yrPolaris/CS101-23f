@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Shanghaitech\Computer_Science\CS100\hw\hw8\hw8_resources\src\Cooldownmask\Cooldownmask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Shanghaitech\Computer_Science\CS100\hw\hw8\hw8_resources\src\Cooldownmask\Cooldownmask.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Shanghaitech\Computer_Science\CS100\hw\hw8\hw8_resources\src\Cooldownmask\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{906BEBB3-6D16-38BB-BC1A-8311FC75DD48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{204803CE-4442-39BE-9847-388A77C87FDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
