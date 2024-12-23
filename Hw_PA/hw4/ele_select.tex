@@ -1,0 +1,109 @@
+\titledquestion{Element(s) Selection}
+
+\begin{parts}
+\part{} \textbf{Selection of the \(k\)-th Minimal Value} \par
+In this part, we will design an algorithm to find the \(k\)-th minimal value of a given array \(\langle a_1,\cdots,a_n\rangle\) of length \(n\) with \emph{distinct} elements for an integer \(k\in[1,n]\). We say \(a_x\) is the \(k\)-th minimal value of \(a\) if there are exactly \(k-1\) elements in \(a\) that are less than \(a_x\), i.e.
+\[\left|\left\{i\mid a_i<a_x\right\}\right|=k-1.\]
+Consider making use of the `\textbf{partition}' procedure in quick-sort. The function has the signature
+\begin{cpp}
+  int partition(int a[], int l, int r);
+\end{cpp}
+which processes the subarray \(\langle a_l,\cdots,a_r\rangle\). It will choose a pivot from the subarray, place all the elements that are less than the pivot before it, and place all the elements that are greater than the pivot after it. After that, the index of the pivot is returned.
+
+Our algorithm to find the \(k\)-th minimal value is implemented below.
+\begin{cpp}
+  // returns the k-th minimal value in the subarray a[l],...,a[r].
+  int kth_min(int a[], int l, int r, int k) {
+    auto pos = partition(a, l, r), num = pos - l + 1;
+    if (num == k)
+      return a[pos];
+    else if (num > k)
+      return kth_min(int a, int l, int pos-1, int k);
+    else
+      return kth_min(int a, int pos+1, int r, int k-num);
+  }
+\end{cpp}
+By calling \lstinline{kth_min(a, 1, n, k)}, we will get the answer.
+
+\begin{subparts}
+    \subpart[2] Fill in the blanks in the code snippet above.
+    \subpart[2] What's the time complexity of our algorithm in the \textbf{worst case}? Please answer in the form of \(\Theta(\cdot)\) and fully justify your answer.
+    \begin{solution}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Replace `\vspace{2.5in}' with your answer.
+    the time complexity is $\theta(n^{2})$\\
+    Proof:
+    The wrost case is that you could exclude one element by each operation and you should do n-1 times(in an ascending order array, you should find the 1th minimal value with the first pivot is the last element, otherwise the opposite)\\
+    So for the ith recursive operation(function kth-min), in the function partition, you should do n-i comparision between the pivot and the rest elements.\\
+    So the total time you should spend is $\sum_{i=1}^{n-1}n-i$ = $\frac{((n-1)+1)(n-1)}{2}$ = $\frac{n^{2}-n}{2}$\\
+    So the time complexity for the worst case is $\theta(n^{2})$\\
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \end{solution}
+\end{subparts}
+
+\newpage
+
+\part{} \textbf{Batched Selection} \par
+
+Despite the worse-case time complexity of the algorithm in part(a), it actually finds the $k$-th minimal value of \(\langle a_1,\cdots,a_n\rangle\) in expected $O(n)$ time. In this part, we will design a divide-and-conquer algorithm to answer $m$ selection queries for distinct $k_1, k_2, \cdots, k_m$ where $k_1 < k_2 < \cdots < k_m$ on an given array $a$ of n distinct integers (i.e. finding the $k_1$-th, $k_2$-th,$\cdots$,$k_m$-th minimal elements of $a$) and here $m$ satisfies $m = \Theta(\log n)$.
+
+\begin{subparts}
+    \subpart[1] Given that $x$ is the $k_p$-th minimal value of $a$ and $y$ is the $k_q$-th minimal value of $a$ for $1 \leq p < q \leq m$, which of the following is true?
+    
+    \begin{oneparcheckboxes}
+        \CorrectChoice $x < y$
+        \choice $x = y$
+        \choice $x > y$
+    \end{oneparcheckboxes}
+
+    
+
+    \subpart[2] Suppose by calling the algorithm in part(a), we have already found $z$ to be the $k_l$-th minimal value of $a$ for $1 < l < m$. Let $L = \left\{a_i \mid a_i < z\right\}$ and $R = \left\{a_i \mid a_i > z\right\}$. What can you claim about the $k_1$-th,$\cdots$,$k_{l-1}$-th minimal elements of $a$ and the $k_{l+1}$-th,$\cdots$,$k_{m}$-th minimal elements of $a$?
+    
+    \begin{solution}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Replace `\vspace{1in}' with your answer.
+    $k_{1}$-th, ..., $k_{l-1}$-th minimal elements $\in$ $L = {a_{i}| a_{i} < a_{z}}$\\
+    $k_{l+1}$-th, ..., $k_{m}$-th minimal elements $\in$ $R = {a_{i}| a_{i} > a_{z}}$\\
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+    \end{solution}
+    
+    \subpart[6] Based on your answers of previous parts, design a divide-and-conquer algorithm, \textbf{which calls the algorithm in part(a) as a subroutine}, for this problem. Your algorithm should runs in \textbf{expected} $O(n \log m) = O(n \log \log n)$ time. Any algorithms that run in $\Omega(n \log n)$ time will get no credit. Make sure to provide \textbf{clear description} of your algorithm design in \textbf{natural language}, with \textbf{pseudocode} if necessary.
+    
+    \begin{solution}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Replace `\vspace{2.5in}' with your answer.
+    \\
+    Algorithm Design:\\
+    We first use algorithm in part(a) whose search range is a[0] to a[n] to find the $k_{\frac{m}{2}}-th$(we round $\frac{m}{2}$ up) mininal elements and get an ascending order array.\\
+    Then, we constantly use algorithm in part(a) to search for the $k_{i}$-th minimal elements for the parts before and after the $k_{\frac{m}{2}}-th$ and follow these rules.\\
+    1.i is the average of leading and ending numeric subscript.
+    2.the part's division will be stop if between the divided part there is only one targeted element and only return its index. i.e. the part's leading element is $k_{i}$-th minimal element and ending element is $k_{j}$-th minimal element and j-i = 2.
+    3.if the leading element and ending element of the part is $k_{i}$-th and $k_{j}$-th minimal element and j-i = 1, then this part won't be operated and if i or j is the $k_{1}$ or $k_{m}$, it will pause too.\\
+    
+    Time complexity Analysis:\\
+    For each division, the total time complexity of each part is O(n),\\
+    While other operation's time complexity like calculating the average of leading and ending numeric subscript and compare the leading and ending element is constant.So the time complexity of each division is O(n)\\
+    Then, the number of division is that $1+2+2^{2}+...+ 2^{k-1} + o$(o menas the residual term which the total time divisions spend is less than others).\\
+    Then k = $\theta(log(m))$ which is the number of division.\\
+    So the time complexity is expected O(nlog(m)).\\
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+    \end{solution}
+
+    \newpage
+    
+    \subpart[2] Provide your reasoning for why your algorithm in the previous part runs in expected $O(n\log m)$ time using the \textbf{recursion-tree} method.
+    \begin{solution}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Replace `\vspace{3in}' with your answer.
+    The branching factor of the recursive tree is two, the different problem part's problem size is different and unknow, but for the part operation is O(n), then d = 1.\\
+    So for each level, although Problem size is not eqully divided, the sum of them (i.e.Work) is O(n).\\
+    Then for dividing m element into different part and each time it divides a part into two,then the level is k = logm.\\
+    Then the total time complexity is $\sum_{1}^{k}a^{k}(\frac{n}{b^{k}}^{d})$ where d = 1, $(a^{k}(\frac{n}{b^{k}})^{d}) = n$\\
+    i.e. the total time complexity is nlogm.\\
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
+    \end{solution}
+    
+\end{subparts}
+
+\end{parts}

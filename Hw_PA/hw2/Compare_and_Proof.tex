@@ -1,0 +1,56 @@
+\titledquestion{Compare and Proof}
+
+For each pair of functions \(f(n)\) and \(g(n)\), give your answer whether \(f(n) = o(g(n))\), \(f(n) = \omega(g(n))\) or \(f(n) = \Theta(g(n))\).  Give a \textbf{proof} of your answers.
+
+\begin{parts}
+    \part[3] \par
+    \[f(n) = \log(n!)\]
+    \[g(n) = \log(n^n)\]
+    
+    \begin{solution}
+    According to 
+    \begin{flalign}
+        \begin{split}
+            \frac{f(n)}{g(n)} &= \frac{log(n!)}{long(n^{n})}\\
+                              &< \frac{nlogn}{nlogn} = 1\\
+        \end{split}
+    \end{flalign}
+    While
+    \begin{flalign}
+        \begin{split}
+            \lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)} &> \lim\limits_{n \rightarrow \infty}\frac{0*2^{0} + 1*2^{1} + ... + (\lfloor log_{2}n \rfloor-1)*2^{\lfloor log_{2}n \rfloor-1} + \lfloor log_{2}n \rfloor*(n - 2^{\lfloor log_{2}n \rfloor} + 1)}{nlogn}\\
+                                                                &> \lim\limits_{n \rightarrow \infty}\frac{(logn-2)2^{logn-2}}{nlogn}\\
+                                                                &= \lim\limits_{n \rightarrow \infty}\frac{nlogn-2n}{4nlogn}\\
+                                                                &= \frac{1}{4}\\
+        \end{split}                             
+    \end{flalign}
+    So $f(n) = \Theta(g(n))$
+    \end{solution}
+\newpage
+    \part[3] \par
+    \[f(n) = n^{1+\varepsilon}, \qquad (\varepsilon\in \mathbb{R}^+)\]
+    \[g(n) = n(\log n)^k, \qquad (k\in \mathbb{Z}^+)\]
+    
+    \begin{solution}
+    Suppose $f(n) = o(g(n))$\\
+    Set $\varepsilon = 2k$\\
+    $\lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)} = \lim\limits_{n \rightarrow \infty}(\frac{n^{2}}{logn})^{k} = \infty$\\
+    Wrong\\
+
+    As the same, $f(n) \neq \Theta (g(n))$\\
+    Proof: $f(n) = \omega(g(n))$
+    \begin{flalign}
+        \begin{split}
+            \lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)} &= \lim\limits_{n \rightarrow \infty}(\frac{n^{\varepsilon}}{(logn)^{k}})\\
+        \end{split}
+    \end{flalign}
+    For $\varepsilon \in \mathbb{R}^+$ and $k\in \mathbb{Z}^+$, $\lim\limits_{n \rightarrow \infty}(n^{\varepsilon}) = \infty$ $\lim\limits_{n \rightarrow \infty}((logn)^{k}) = \infty$.\\
+    According to L'Hospital Theorem.\\
+    $\lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)}$ = $\lim\limits_{n \rightarrow \infty}\frac{n^{\varepsilon}(\varepsilon)}{kln(n)^{k-1}}(ln2)^{k}$\\
+    For any i s.t. k-i > 0, there will be that $\lim\limits_{n \rightarrow \infty}[k*(k-1)*(k-2)...*(k-i+1)ln(n)^{k-i}] = \infty$ and $\lim\limits_{n \rightarrow \infty}(n^{\varepsilon}(\varepsilon)^{k-i}(ln2)^{k}) = \infty$. So it can use L'Hospital Theorem continously.\\
+    While k-i = 0, there will be that $\lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)} = \lim\limits_{n \rightarrow \infty}\frac{n^{\varepsilon}(\varepsilon)^{k}(ln2)^{k}}{k!}$.\\
+    Because $(ln2)^{k}, (\varepsilon)^{k}$, and $ k!$ are constant.\\
+    $\lim\limits_{n \rightarrow \infty}\frac{f(n)}{g(n)} = \lim\limits_{n \rightarrow \infty}\frac{n^{\varepsilon}(\varepsilon)^{k}(ln2)^{k}}{k!} = \infty$.\\
+    i.e. $f(n) = \omega g(n)$.
+    \end{solution}
+\end{parts}
